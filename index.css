@@ -1,0 +1,108 @@
+.dropdown-menu {
+    min-width: 130px;
+    border: none;
+}
+
+.dropdown-menu li {
+    margin-bottom: 0.3em;
+    margin-left: 0.5em;
+}
+
+.a {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.navbar,
+.btn-login {
+    background-color: hsl(0, 0%, 98%) !important;
+}
+
+.navbar-brand {
+    margin: 0 !important;
+    padding-left: 1em;
+}
+
+.img-hero {
+    content: url('./images/image-hero-mobile.png');
+    width: 375px !important;
+}
+
+.title-work {
+    font-size: 1.9em;
+    text-align: center;
+    color: hsl(0, 0%, 8%) !important;
+    font-weight: 700 !important;
+}
+
+.text-secondary {
+    font-size: 0.8em;
+    margin: 0 0.8em;
+    text-align: center;
+    color: hsl(0, 0%, 41%) !important;
+}
+
+.btn-learn {
+    margin: 1em 4em !important;
+}
+
+.btn-learn:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+.img-logo {
+    width: 75px;
+    height: 20px;
+}
+
+.body-menu {
+    width: 300px;
+}
+
+@media (min-width: 376px) {
+    .dropdown-menu {
+        box-shadow: 1px 1px 12px hsl(0, 0%, 41%);
+    }
+ 
+    .navbar-brand {
+        padding-right: 2em;
+    }
+
+    .nav-item {
+        margin-top: 0.5em;
+    }
+
+    .title-work {
+        margin-top: 0.7em;
+        font-size: 3.8em;
+        text-align: start;
+    }
+
+    .text-secondary {
+        font-size: 1em;
+        margin: 0;
+        text-align: start;
+        color: hsl(0, 0%, 41%) !important;
+    }
+
+    .btn-learn {
+        margin: 1em 0 2em !important;
+    }
+
+    .img-logo {
+        width: 90px;
+        height: 32px;
+        margin-right: 0.4em;
+    }
+
+    .img-hero {
+        width: 400px !important;
+        margin-left: 5em !important;
+    }
+}
